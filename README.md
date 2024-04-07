@@ -6,7 +6,7 @@ O frontend da aplicação foi desenvolvido com HTML, CSS e JavaScript e o backen
 
 ## Endereço de Deploy - GitHub Pages
 
-https://guipsilva.github.io/site-olympikus/
+https://guilhermepatr.github.io/site-olympikus/
 
 ## Protótipo
 
