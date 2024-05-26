@@ -3,10 +3,19 @@
 }
 
 /*Rodapé*/
-.footer {
+.c-footer {
   background-color: #F5F5F7;
+  padding: 5rem 0 5rem 0;
 }
 
-.text {
-  background-color: red;
+.fw-bold {
+  color: black
+}
+
+.p-text {
+  color: #454545;
+}
+
+.texto {
+  padding-top: 5rem;
 }
