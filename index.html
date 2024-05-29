@@ -4,22 +4,137 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Olympikus</title>
-    <link rel="stylesheet" href="/assets/resouces/css/style.css" />
+
     <link
       rel="stylesheet"
       href="/assets/libraries/bootstrap/dist/css/bootstrap.css "
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/libraries/bootstrap-icons/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="/assets/resouces/css/style.css" />
   </head>
   <body>
     <header id="cabecalho">
-      <h2>lkeklsjfsdkljfdskl</h2>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Open Small Brand-->
+          <a class="navbar-brand" href="#">
+            <img
+              class="d-lg-none"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasResponsive"
+              aria-controls="offcanvasResponsive"
+              id="accordionFlushExample"
+              src="/assets/resouces/img/image 2.svg"
+              alt="Bootstrap"
+              width="145"
+              height="64.44"
+            />
+            <!--Close Small Brand-->
+
+            <!--Open Big Brand-->
+            <img
+              class="d-none d-lg-block"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasResponsive"
+              aria-controls="offcanvasResponsive"
+              id="accordionFlushExample"
+              src="/assets/resouces/img/image 1.svg"
+              alt="Bootstrap"
+              width="339"
+              height="55"
+            />
+          </a>
+          <!--Close Big Brand-->
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Lançamentos</a>
+              </li>
+              <!--Open Masculino-->
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <!--Close Masculino-->
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Feminino</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Infantil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"
+                  >Bota para correr</a
+                >
+              </li>
+            </ul>
+            <form class="form-inline d-flex">
+              <div class="input-group w-100">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="bi bi-search"></i
+                  ></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Pesquisa"
+                  aria-label="Pesquisa"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <button
+                type="button"
+                class="btn btn-primary btn-md btn-block shop shrink-1"
+              >
+                <i class="bi bi-bag-fill medium"></i>
+              </button>
+            </form>
+            kdskljdfslkjf
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
       <p>kjdakjsdhajks</p>
     </main>
     <footer class="c-footer">
       <div class="container">
+        <!-- Footer laptop-->
         <div class="d-none d-lg-block">
           <div class="row justify-content-evenly">
             <div class="col col-lg-3">
@@ -185,9 +300,9 @@
         >
           <!--1 divisão - Insitucional-->
           <div class="accordion-item">
-            <h2 class="accordion-header">
+            <h2 class="accordion-header fw-bold">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button collapsed fw-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseOne"
@@ -243,7 +358,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button collapsed fw-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseTwo"
@@ -287,7 +402,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button collapsed fw-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseThree"
@@ -310,11 +425,11 @@
               </div>
             </div>
           </div>
-          <!--4 divisão-->
+          <!--4 divisão - Horarios de atendimento-->
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button collapsed fw-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseFour"
@@ -343,7 +458,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button collapsed fw-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseFive"
@@ -380,9 +495,10 @@
         </div>
       </div>
     </footer>
-    <script src="/assets/libraries/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/assets/libraries/bootstrap/dist/js/bootstrap.mim.js"></script>
     <script src="/assets/libraries/bootstrap/js/dist/dropdown.js"></script>
     <script src="/assets/libraries/bootstrap/js/src/dropdown.js"></script>
     <script src="/assets/resouces/js/script.js"></script>
+    <script src="/assets/libraries/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

@@ -1,7 +1,61 @@
-#cabecalho {
-  background-color: aqua;
+/*Header*/
+
+
+.container-fluid {
+  background-color: #2735d4;
+  padding: 1rem 0 1rem 0;
 }
 
+body {
+  margin-top: -0.5rem;
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding-left: 1rem;
+}
+
+img {
+  padding-left: 2rem;
+}
+
+.navbar-toggler {
+  background-color: #F5F5F7;
+  color: #2735d4;
+  margin-left: 1rem;
+}
+
+.input-group-text {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.input-group {
+  margin-left: 1rem;
+  padding-right: 2rem;
+}
+
+.shop {
+  margin-right: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+
+/*Close Header*/
+
+/*-------------------------------------------------------------*/
+/*Main*/
+
+/*Close main*/
+/*-------------------------------------------------------------*/
 /*Rodapé*/
 .c-footer {
   background-color: #F5F5F7;
@@ -18,4 +72,13 @@
 
 .texto {
   padding-top: 5rem;
+}
+
+.accordion,
+.accordion-button,
+.accordion-item,
+.accordion-header,
+.collapsed,
+.list-group-item {
+  background-color: #F5F5F7;
 }
