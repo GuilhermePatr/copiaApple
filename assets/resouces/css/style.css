@@ -1,13 +1,11 @@
-/*Header*/
-
-
-.container-fluid {
-  background-color: #2735d4;
-  padding: 1rem 0 1rem 0;
-}
-
 body {
   margin-top: -0.5rem;
+}
+
+/*Header*/
+.navbar-header {
+  background-color: #2735d4;
+  margin-bottom: -0.5rem;
 }
 
 .nav-link {
@@ -21,7 +19,7 @@ body {
   padding-left: 1rem;
 }
 
-img {
+.brand {
   padding-left: 2rem;
 }
 
@@ -34,11 +32,13 @@ img {
 .input-group-text {
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
+
 }
 
 .input-group {
   margin-left: 1rem;
   padding-right: 2rem;
+
 }
 
 .shop {
@@ -49,10 +49,21 @@ img {
 
 
 
+
+
 /*Close Header*/
 
 /*-------------------------------------------------------------*/
 /*Main*/
+
+.banner-desktop {
+  padding: 0px;
+}
+
+#corre-supra,
+#pride {
+  margin-bottom: -0.1rem;
+}
 
 /*Close main*/
 /*-------------------------------------------------------------*/
