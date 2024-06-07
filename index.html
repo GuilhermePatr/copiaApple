@@ -18,126 +18,8 @@
     <link rel="stylesheet" href="assets/resouces/css/style.css" />
   </head>
   <body>
-    <header id="cabecalho">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid navbar-header">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <div id="my-header"></div>
 
-          <!--Open Small Brand-->
-          <a class="navbar-brand" href="#">
-            <img
-              class="d-lg-none brand"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasResponsive"
-              aria-controls="offcanvasResponsive"
-              id="accordionFlushExample"
-              src="assets/resouces/img/image 2.svg"
-              alt="Bootstrap"
-              width="145"
-              height="64.44"
-            />
-            <!--Close Small Brand-->
-
-            <!--Open Big Brand-->
-            <img
-              class="d-none d-lg-block brand"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasResponsive"
-              aria-controls="offcanvasResponsive"
-              id="accordionFlushExample"
-              src="assets/resouces/img/image 1.svg"
-              alt="Bootstrap"
-              width="339"
-              height="55"
-            />
-          </a>
-
-          <!--Close Big Brand-->
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Lançamentos</a>
-              </li>
-              <!--Open Masculino-->
-
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <!--Close Masculino-->
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Feminino</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Infantil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Ofertas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#"
-                  >Bota para correr</a
-                >
-              </li>
-            </ul>
-            <form class="form-inline d-flex">
-              <div class="input-group w-100">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1"
-                    ><i class="bi bi-search"></i
-                  ></span>
-                </div>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Pesquisa"
-                  aria-label="Pesquisa"
-                  aria-describedby="basic-addon1"
-                />
-              </div>
-              <button
-                type="button"
-                class="btn btn-primary btn-md btn-block shop shrink-1"
-              >
-                <i class="bi bi-bag-fill medium"></i>
-              </button>
-              <button
-                type="button"
-                class="btn btn-primary btn-md btn-block shop shrink-1"
-              >
-                <i class="bi bi-person-fill medium"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
     <main>
       <!--Open 1° section - Corre Supra-->
       <section id="corre-supra">
@@ -243,8 +125,8 @@
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-footer">
-                <a href="#" class="card-link">Card link</a>
+              <div class="card-footer card-footer-carousel">
+                <a href="#" class="card-link link-carousel"> O SEU CORRE COMPLETO <i class="bi bi-arrow-up-right"></i></a>
               </div>
             </div>
             <!--2° card-->
@@ -254,8 +136,9 @@
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-footer">
-                <a href="#" class="card-link">Card link</a>
+              <div class="card-footer card-footer-carousel">
+                <a href="#" class="card-link link-carousel">VESTUÁRIOS: A LEVEZA DO CORRE <i class="bi bi-arrow-up-right"></i></a>
+                
               </div>
             </div>
             <!--3° card-->
@@ -265,8 +148,8 @@
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-footer">
-                <a href="#" class="card-link">Card link</a>
+              <div class="card-footer card-footer-carousel">
+                <a href="#" class="card-link link-carousel">TÊNIS CASUAL: PERFEITO PARA O DIA A DIA <i class="bi bi-arrow-up-right"></i></a>
               </div>
             </div>
           </div>
@@ -293,8 +176,8 @@
                   class="d-block w-100 card-img-top"
                   alt="..."
                 />
-                <div class="card-footer">
-                  <a href="#" class="card-link">Card link</a>
+                <div class="card-footer card-footer-carousel">
+                  <a href="#" class="card-link link-carousel"> O SEU CORRE COMPLETO <i class="bi bi-arrow-up-right"></i></a>
                 </div>
               </div>
             </div>
@@ -305,8 +188,8 @@
                   class="d-block w-100 card-img-top"
                   alt="..."
                 />
-                <div class="card-footer">
-                  <a href="#" class="card-link">Card link</a>
+                <div class="card-footer card-footer-carousel">
+                  <a href="#" class="card-link link-carousel">VESTUÁRIOS: A LEVEZA DO CORRE <i class="bi bi-arrow-up-right"></i></a>
                 </div>
             </div>
             </div>
@@ -317,8 +200,8 @@
                   class="d-block w-100 card-img-top"
                   alt="..."
                 />
-                <div class="card-footer">
-                  <a href="#" class="card-link">Card link</a>
+                <div class="card-footer card-footer-carousel">
+                  <a href="#" class="card-link link-carousel">TÊNIS CASUAL: PERFEITO PARA O DIA A DIA <i class="bi bi-arrow-up-right"></i></a>
                 </div>
             </div>
           </div>
@@ -379,7 +262,7 @@
       </section>
       <!--Close 5° section - eleva-->
 
-      <!--Open 6° section - slider-->
+      <!--Open 6° section - slider- carrousels-->
       <section class="d-none d-lg-block"
       data-bs-toggle="offcanvas"
       data-bs-target="#offcanvasResponsive"
@@ -390,35 +273,42 @@
             <!--1° card-->
             <div class="card">
               <img
-                src="assets/resouces/img/card-maratona-sp.svg"
+                src="assets/resouces/img/card-estabilidade.svg"
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-footer">
-                <a href="#" class="card-link">Card link</a>
+              <div class="card-body">
+                <h5 class="card-title h2">ESSENCIAL 3</h5>
+                <p class="card-text">Leveza nos treinos</p>
+                <a href="#" class="btn btn-primary btn-carrossel">Saiba mais</a>
               </div>
             </div>
             <!--2° card-->
             <div class="card">
               <img
-                src="assets/resouces/img/card-roupas.svg"
+                src="assets/resouces/img/card-vestuario.svg"
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-footer">
-                <a href="#" class="card-link">Card link</a>
+              <div class="card-body">
+                <h5 class="card-title h2">RUNNER</h5>
+                <p class="card-text">O Corre na moda!</p>
+                <a href="#" class="btn btn-primary btn-carrossel">Saiba mais</a>
               </div>
             </div>
             <!--3° card-->
             <div class="card">
               <img
-                src="assets/resouces/img/card-tenis.svg"
+                src="assets/resouces/img/card-conforto.svg"
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-footer">
-                <a href="#" class="card-link">Card link</a>
+              <div class="card-body">
+                <h5 class="card-title h2">TITANIUM</h5>
+                <p class="card-text">o tênis que combina tecnologia e estilo</p>
+                <a href="#" class="btn btn-primary btn-carrossel">Saiba mais</a>
               </div>
+
             </div>
           </div>
         </div>
@@ -440,12 +330,14 @@
             <div class="carousel-item active" data-bs-interval="10000">
               <div class="card">
               <img
-                  src="assets/resouces/img/card-maratona-sp.svg"
+                  src="assets/resouces/img/card-estabilidade.svg"
                   class="d-block w-100 card-img-top"
                   alt="..."
                 />
-                <div class="card-footer">
-                  <a href="#" class="card-link">Card link</a>
+                <div class="card-body">
+                  <h5 class="card-title h2">ESSENCIAL 3</h5>
+                  <p class="card-text">Leveza nos treinos</p>
+                  <a href="#" class="btn btn-primary btn-carrossel">Saiba mais</a>
                 </div>
               </div>
             </div>
@@ -456,20 +348,24 @@
                   class="d-block w-100 card-img-top"
                   alt="..."
                 />
-                <div class="card-footer">
-                  <a href="#" class="card-link">Card link</a>
+                <div class="card-body">
+                  <h5 class="card-title h2">RUNNER</h5>
+                  <p class="card-text">O Corre na moda!</p>
+                  <a href="#" class="btn btn-primary btn-carrossel">Saiba mais</a>
                 </div>
             </div>
             </div>
             <div class="carousel-item">
               <div class="card">
                 <img
-                  src="assets/resouces/img/card-tenis.svg"
+                  src="assets/resouces/img/card-conforto.svg"
                   class="d-block w-100 card-img-top"
                   alt="..."
                 />
-                <div class="card-footer">
-                  <a href="#" class="card-link">Card link</a>
+                <div class="card-body">
+                  <h5 class="card-title h2">TITANIUM</h5>
+                  <p class="card-text">o tênis que combina tecnologia e estilo</p>
+                  <a href="#" class="btn btn-primary btn-carrossel">Saiba mais</a>
                 </div>
             </div>
           </div>
@@ -496,7 +392,7 @@
       <!--Open Carousels-->
 
       <!--Open 7° section - voa 2-->
-      <section id="pride">
+      <section id="voa-2">
         <div class="container-fluid banner-desktop">
           <!--Open Small Banner voa 2-->
           <a class="" href="#">
@@ -531,373 +427,12 @@
       </section>
       <!--Close 7° section - voa 2-->
     </main>
-    <footer class="c-footer">
-      <div class="container">
-        <!-- Footer laptop-->
-        <div class="d-none d-lg-block">
-          <div class="row justify-content-evenly">
-            <div class="col col-lg-3">
-              <p class="fw-bold">Institucional</p>
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Sobre a Olympikus
-                </a>
-              </p>
-
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Política de Entrega
-                </a>
-              </p>
-
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Política de Pagamento
-                </a>
-              </p>
-
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Política de Troca e Devoluções
-                </a>
-              </p>
-
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Política de Recusa
-                </a>
-              </p>
-
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Aviso de Privacidade
-                </a>
-              </p>
-
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Política de Cookies
-                </a>
-              </p>
-
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Trabalhe Conosco
-                </a>
-              </p>
-
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Política de Promoções
-                </a>
-              </p>
-            </div>
-            <div class="col col-lg-3">
-              <p class="fw-bold">Ajuda</p>
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Perguntas Frequentes
-                </a>
-              </p>
-
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Meus Pedidos
-                </a>
-              </p>
-
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Trocas e Devoluções
-                </a>
-              </p>
-
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Entregas
-                </a>
-              </p>
-
-              <p class="p-text">
-                <a
-                  class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover"
-                  href="#"
-                >
-                  Cachback
-                </a>
-              </p>
-            </div>
-            <div class="col col-lg-2">
-              <p class="fw-bold">Fale Conosco</p>
-              <p class="p-text">Telefone: 0800 000 7002</p>
-              <br />
-
-              <p class="fw-bold">E-mail</p>
-              <p class="p-text">loja@olympikus.com.br</p>
-              <br />
-
-              <p class="fw-bold">Horários de Atendimento</p>
-              <p class="p-text">Segunda à Sexta das 08h às 20h</p>
-              <p class="p-text">Exceto Feriados</p>
-              <br />
-
-              <p class="fw-bold">Corre Junto Brasil</p>
-              <p class="p-text">sac@correjuntobrasil.com.br</p>
-              <br />
-            </div>
-          </div>
-        </div>
-
-        <!-- Footer Celular e Tablet-->
-        <!-- Lista de links-->
-
-        <div
-          class="accordion accordion-flush d-lg-none"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasResponsive"
-          aria-controls="offcanvasResponsive"
-          id="accordionFlushExample"
-        >
-          <!--1 divisão - Insitucional-->
-          <div class="accordion-item">
-            <h2 class="accordion-header fw-bold">
-              <button
-                class="accordion-button collapsed fw-bold"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne"
-                aria-expanded="false"
-                aria-controls="flush-collapseOne"
-              >
-                Institucional
-              </button>
-            </h2>
-            <div
-              id="flush-collapseOne"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                <div class="list-group list-group-flush">
-                  <a
-                    href="#"
-                    class="list-group-item list-group-item-action"
-                    aria-current="true"
-                  >
-                    Sobre a Olympikus
-                  </a>
-                  <a href="#" class="list-group-item list-group-item-action"
-                    >Politica de Entrega</a
-                  >
-                  <a href="#" class="list-group-item list-group-item-action"
-                    >Politica de Pagamento</a
-                  >
-                  <a href="#" class="list-group-item list-group-item-action"
-                    >Politica de Troca e Devolução</a
-                  >
-                  <a href="#" class="list-group-item list-group-item-action"
-                    >Politica de Recusa</a
-                  >
-                  <a href="#" class="list-group-item list-group-item-action"
-                    >Aviso de Privacidade</a
-                  >
-                  <a href="#" class="list-group-item list-group-item-action"
-                    >Politica de Cookies</a
-                  >
-                  <a href="#" class="list-group-item list-group-item-action"
-                    >Trabalhe Conosco</a
-                  >
-                  <a href="#" class="list-group-item list-group-item-action"
-                    >Politica de Promoções</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Segunda divisãon - Ajuda-->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed fw-bold"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo"
-                aria-expanded="false"
-                aria-controls="flush-collapseTwo"
-              >
-                Ajuda
-              </button>
-            </h2>
-            <div
-              id="flush-collapseTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                <div class="list-group list-group-flush">
-                  <a
-                    href="#"
-                    class="list-group-item list-group-item-action"
-                    aria-current="true"
-                  >
-                    Perguntas Frequentes
-                  </a>
-                  <a href="#" class="list-group-item list-group-item-action"
-                    >Meus Pedidos</a
-                  >
-                  <a href="#" class="list-group-item list-group-item-action"
-                    >Trocas e Devoluções</a
-                  >
-                  <a href="#" class="list-group-item list-group-item-action"
-                    >Entregas</a
-                  >
-                  <a href="#" class="list-group-item list-group-item-action"
-                    >Cashback</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--3 divisão - Fale Conosco-->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed fw-bold"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree"
-                aria-expanded="false"
-                aria-controls="flush-collapseThree"
-              >
-                Fale Conosco
-              </button>
-            </h2>
-            <div
-              id="flush-collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Telefone: 0800 000 XXXX</li>
-                  <li class="list-group-item">E-mail: loja@email.com.b</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!--4 divisão - Horarios de atendimento-->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed fw-bold"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFour"
-                aria-expanded="false"
-                aria-controls="flush-collapseFour"
-              >
-                Horários de Atendimento
-              </button>
-            </h2>
-            <div
-              id="flush-collapseFour"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    Segunda à Sexta das 08h às 20h
-                  </li>
-                  <li class="list-group-item">Exceto Feriados/li></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!--5 divisão - Corre Junto Brasil-->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed fw-bold"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFive"
-                aria-expanded="false"
-                aria-controls="flush-collapseFive"
-              >
-                Corre Junto Brasil
-              </button>
-            </h2>
-            <div
-              id="flush-collapseFive"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">sac@email.com.br</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="texto">
-          <p class="text-start lh-1">
-            Copyright © 2024 OLYMPIKUS. Todos os direitos reservados.
-          </p>
-          <p class="text-start lh-1">
-            Vulcbras Azaleia - SP Comércio e Artigos Esportvos LTDA. CNPJ:
-            18.565.468/0012-41
-          </p>
-          <p class="text-start lh-1">
-            Est. Municipal Luiz Lopes Neto, 21 - Tenentes - CEP:37640-000
-          </p>
-        </div>
-      </div>
-    </footer>
-    <script src="assets/libraries/bootstrap/dist/js/bootstrap.mim.js"></script>
+    <div id="my-footer"></div>
+    <!--<script src="assets/libraries/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/libraries/bootstrap/js/dist/dropdown.js"></script>
-    <script src="assets/libraries/bootstrap/js/src/dropdown.js"></script>
+    <script src="assets/libraries/bootstrap/js/src/dropdown.js"></script>--> 
+    <script src="node_modules/jquery/dist/jquery.min.js"></script> 
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/resouces/js/script.js"></script>
-    <script src="assets/libraries/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

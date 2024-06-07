@@ -88,6 +88,23 @@ body {
   font-weight: bolder;
 }
 
+.btn-carrossel {
+  border-radius: 1.2rem;
+  border-color: #7749F8;
+  background-color: #7749F8;
+}
+
+.link-carousel {
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.card-footer-carousel {
+  padding-top: 1rem;
+
+}
+
 /*Close main*/
 /*-------------------------------------------------------------*/
 /*Rodapé*/
