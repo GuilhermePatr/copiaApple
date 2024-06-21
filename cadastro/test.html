@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="test.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Links para cabeçalhos e rodape-->
+    <link
+      rel="stylesheet"
+      href="/assets/libraries/bootstrap/dist/css/bootstrap.css "
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/libraries/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/resouces/css/header-footer-style.css"
+    />
+
+    <title>Formulário test</title>
+  </head>
+  <body>
+    <div id="my-header"></div>
+    <main>
+      <div class="">
+        <div class="card-acount">
+          <div class="header">
+            <h2>Criar Uma Conta</h2>
+          </div>
+
+          <form id="form" class="form" method="get" action=".">
+            <div class="formControl">
+              <label for="name">Nome</label>
+              <input type="text" id="username" placeholder="Nome" />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Mensagem de erro</small>
+            </div>
+
+            <div class="formControl">
+              <label for="last-name">Sobrenome</label>
+              <input type="text" id="last-name" placeholder="Sobrenome" />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Mensagem de erro</small>
+            </div>
+
+            <div class="formControl">
+              <label for="email">Email</label>
+              <input type="text" id="email" placeholder="Digite seu email.." />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Mensagem de erro</small>
+            </div>
+
+            <div class="formControl">
+              <label for="fone">Telefone</label>
+              <input
+                type="text"
+                id="fone"
+                placeholder="Telefone (dd)123456789"
+              />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Mensagem de erro</small>
+            </div>
+
+            <div class="formControl">
+              <label for="cep">CEP</label>
+              <input
+                name="cep"
+                type="text"
+                id="cep"
+                value=""
+                onblur="pesquisacep(this.value);"
+                placeholder="Informe seu CEP (somente números)"
+              />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Mensagem de erro</small>
+            </div>
+
+            <div class="formControl">
+              <label for="uf">Estado</label>
+              <input
+                type="text"
+                id="uf"
+                name="uf"
+                placeholder="Estado"
+                disabled
+              />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Mensagem de erro</small>
+            </div>
+
+            <div class="formControl">
+              <label for="cidade">Cidade</label>
+              <input
+                type="text"
+                id="cidade"
+                name="cidade"
+                placeholder="Cidade"
+                disabled
+              />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Mensagem de erro</small>
+            </div>
+
+            <div class="formControl">
+              <label for="bairro">Bairro</label>
+              <input
+                type="text"
+                id="bairro"
+                name="bairro"
+                placeholder="Bairro"
+                disabled
+              />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Mensagem de erro</small>
+            </div>
+
+            <div class="formControl">
+              <label for="rua">Logradouro</label>
+              <input
+                type="text"
+                id="rua"
+                name="rua"
+                placeholder="Rua (Av, Pça, etc.)"
+                disabled
+              />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Mensagem de erro</small>
+            </div>
+
+            <div class="formControl">
+              <label for="apto">Observações</label>
+              <input
+                type="text"
+                id="apto"
+                placeholder="Apto, bloco, prédio (opcional)"
+              />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Mensagem de erro</small>
+            </div>
+
+            <div class="formControl">
+              <label for="number">Número</label>
+              <input type="text" id="number" placeholder="Número" />
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small>Mensagem de erro</small>
+            </div>
+
+            <!---->
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <div id="my-footer"></div>
+
+    <script
+      src="https://kit.fontawesome.com/f9e19193d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/libraries/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/resouces/js/script.js"></script>
+    <script src="test.js"></script>
+  </body>
+</html>
