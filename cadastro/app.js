@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }*/
   }
   // Função para salvar dados no servidor usando Fetch API
-  async function saveToServer(usuario) {
+ , async function saveToServer(usuario) {
     try {
       const response = await fetch("http://localhost:3000/usuarios", {
         method: "POST",
@@ -62,9 +62,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Carregar dados do localStorage ao carregar a página
-  loadFromLocalStorage();
+  ,loadFromLocalStorage()
 
-  form.addEventListener("submit", async (event) => {
+  ,form.addEventListener("submit", async (event) => {
     event.preventDefault();
 
     const username = document.querySelector("#username").value;
@@ -88,14 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const usuario = new Usuario(username, email, password);
-    /*
-    // Exibir os dados capturados
-    resultDiv.innerHTML = `
-          <h3>Dados Capturados:</h3>
-          <p><strong>Nome:</strong> ${usuario.username}</p>
-          <p><strong>Email:</strong> ${usuario.email}</p>
-          <p><strong>Password:</strong> ${usuario.password}</p>
-      `;*/
+   
 
     // Salvar os dados no localStorage
     saveToLocalStorage(usuario);
@@ -105,10 +98,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Atualizar a exibição dos dados armazenados
     loadFromLocalStorage();
-  });
+  })
 
-  limparBtn.addEventListener("click", () => {
+  ,limparBtn.addEventListener("click", () => {
     const inputs = document.querySelectorAll("#form input");
     inputs.forEach((input) => (input.value = ""));
-  });
+  })
 });

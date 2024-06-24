@@ -101,8 +101,7 @@ function meu_callback(conteudo) {
     document.getElementById("bairro").value = conteudo.bairro;
     document.getElementById("cidade").value = conteudo.localidade;
     document.getElementById("uf").value = conteudo.uf;
-  } //end if.
-  else {
+  } else {
     //CEP não Encontrado.
     limpa_formulário_cep();
     alert("CEP não encontrado.");
