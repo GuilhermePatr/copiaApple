@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "id": "a5ee",
+      "username": "guilherme123",
+      "email": "guilhermeps96@hotmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "ee5e",
+      "username": "guilherme teste",
+      "email": "guilhermepsteste96@email.com",
+      "password": "1234567"
+    },
+    {
+      "id": "5c6e",
+      "username": "Guilherme Teste 2024",
+      "email": "guilhermeps96@hotmail.com.br",
+      "password": "1234567"
+    },
+    {
+      "id": "acfa",
+      "username": "guilherme111",
+      "email": "guilhermeps96@hotmail.com.br",
+      "password": "1234567"
+    },
+    {
+      "id": "487e",
+      "username": "Guilherme Teste 123456",
+      "email": "guilhermeps96@hotmail.com",
+      "password": "1234567"
+    }
+  ]
+}

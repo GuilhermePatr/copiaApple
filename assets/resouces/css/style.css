@@ -2,52 +2,6 @@ body {
   margin-top: -0.5rem;
 }
 
-/*Header*/
-.navbar-header {
-  background-color: #2735d4;
-  margin-bottom: -0.5rem;
-}
-
-.nav-link {
-  color: white;
-  text-transform: uppercase;
-  font-size: larger;
-  font-weight: 500;
-}
-
-.nav-item {
-  padding-left: 1rem;
-}
-
-.brand {
-  padding-left: 2rem;
-}
-
-.navbar-toggler {
-  background-color: #F5F5F7;
-  color: #2735d4;
-  margin-left: 1rem;
-}
-
-.input-group-text {
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-
-}
-
-.input-group {
-  margin-left: 1rem;
-  padding-right: 2rem;
-
-}
-
-.shop {
-  margin-right: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-/*Close Header*/
 
 /*-------------------------------------------------------------*/
 /*Main*/

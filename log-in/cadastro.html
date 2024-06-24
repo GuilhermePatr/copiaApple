@@ -1,51 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./cadastro.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
-
     <link
       rel="stylesheet"
-      href="../assets/libraries/bootstrap/dist/css/bootstrap.css "
+      href="/assets/resouces/css/header-footer-style.css"
     />
     <link
       rel="stylesheet"
-      href="../assets/libraries/bootstrap-icons/font/bootstrap-icons.css"
+      href="/assets/libraries/bootstrap/dist/css/bootstrap.css"
     />
-    <link rel="stylesheet" href="cadastro.css" />
     <link
       rel="stylesheet"
-      href="../assets/resouces/css/header-footer-style.css"
+      href="/assets/libraries/bootstrap-icons/font/bootstrap-icons.css"
     />
-    <title>Novo Usuario</title>
+    <link
+      rel="stylesheet"
+      href="/assets/resouces/css/header-footer-style.css"
+    />
+    <script src="../server/app.js" defer></script>
+    <title>Login</title>
   </head>
   <body>
     <div id="my-header"></div>
     <main>
       <div class="acount-card">
         <div class="header">
-          <h2>Criar Uma Conta</h2>
+          <h2>Login</h2>
         </div>
         <form id="form" class="form">
-          <div class="formControl">
-            <label for="username">Nome de usuário</label>
-            <input
-              type="text"
-              id="username"
-              placeholder="Digite seu nome de usuário..."
-            />
-            <i class="fas fa-exclamation-circle"></i>
-            <i class="fas fa-check-circle"></i>
-            <small>Mensagem de erro</small>
-          </div>
-
           <div class="formControl">
             <label for="email">Email</label>
             <input type="text" id="email" placeholder="Digite seu email.." />
@@ -53,7 +45,6 @@
             <i class="fas fa-check-circle"></i>
             <small>Mensagem de erro</small>
           </div>
-
           <div class="formControl">
             <label for="password">Senha</label>
             <input
@@ -65,38 +56,31 @@
             <i class="fas fa-check-circle"></i>
             <small>Mensagem de erro</small>
           </div>
-
-          <div class="formControl">
-            <label for="password-confirmation">Confirmação de senha</label>
-            <input
-              type="password"
-              id="password-confirmation"
-              placeholder="Digite sua senha novamente..."
-            />
-            <i class="fas fa-exclamation-circle"></i>
-            <i class="fas fa-check-circle"></i>
-            <small>Mensagem de erro</small>
-          </div>
-
-          <button type="submit">Enviar</button>
+          <button type="submit">
+            <a
+              class="mudarcor link-offset-2 link-underline link-underline-opacity-0"
+              href="../index.html"
+              >Enviar</a
+            >
+          </button>
+          <p class="text-center">
+            <a
+              href="../cadastro/cadastro.html"
+              class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+              >Cadastre-se</a
+            >
+          </p>
         </form>
       </div>
     </main>
-    <div id="result"></div>
-    <div id="storedData"></div>
     <div id="my-footer"></div>
     <script
       src="https://kit.fontawesome.com/f9e19193d6.js"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://kit.fontawesome.com/f9e19193d6.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="/assets/libraries/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/resouces/js/script.js"></script>
-    <script src="cadastro.js"></script>
-    <script src="app.js" defer></script>
+    <script src="validar.js"></script>
   </body>
 </html>

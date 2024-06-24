@@ -2,6 +2,11 @@ body {
   margin-top: -0.5rem;
 }
 
+.link-cadastro {
+  text-decoration: overline none;
+  text-transform: none;
+}
+
 /*Header*/
 .navbar-header {
   background-color: #2735d4;
